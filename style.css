@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.bg-first {
+    background-color: rgb(112, 101, 101);
+    width: 100%;
+    background-size: cover;
+}
+
+nav {
+    height: 3rem;
+    width: 100%;
+
+
+}
+
+.logo {
+    padding-top: 2rem;
+    padding-left: 7rem;
+    color: white;
+    float: left;
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav ul {
+    float: right;
+    margin-right: 6.9rem;
+    color: white;
+
+
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 3rem;
+    margin-left: 2rem;
+    color: white;
+    font-family: sans-serif;
+
+
+}
+
+.hm {
+    color: white;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+/* Hover css started */
+/* ul{
+    padding: 0;
+    list-style-type: none;
+    background-color: #0b121b;
+    margin-top: 0;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+    text-align: left;
+    width: 120px;
+}
+
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: white;
+    background-color: orangered;
+}
+ul li ul.name
+{
+    min-width: 100%;
+    background-color: rgba(11,18,27,0.8);
+    color: white;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li ul li ul.topic
+{
+    display: none;
+}
+ul li ul li:hover ul.topic
+{
+    display: block;
+    left: 100%;
+    top: 0%;
+    position: absolute;
+}
+ul li:hover ul.name
+{
+    display: block;
+}
+ul li ul.name li{
+    display: block;
+} */
+
+/* Hover css ended */
+li select {
+    border-style: none;
+    color: white;
+    background-color: rgb(112, 101, 101);
+    font-size: 12pt;
+    width: 7rem;
+    font-family: sans-serif;
+}
+
+li select option {
+    border-style: none;
+
+}
+
+.img-first {
+
+
+    margin-left: 5rem;
+    background-image: url('frstIMG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: -200px;
+}
+
+.img-first2 {
+    background-image: url('m3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.first section {
+    float: left;
+}
+
+/* .first{
+   
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+       
+        padding-top: 20px;
+}
+      
+      .section {
+        left: 0;
+        background-color: rgb(219, 75, 75);
+      } */
+
+.title-hd {
+    padding-top: 4rem;
+    padding-left: 7rem;
+    font-size: 49pt;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.title-hd1 {
+
+    padding-left: 7rem;
+    font-size: 49pt;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.title-hd2 {
+    font-family: sans-serif;
+    padding-left: 7rem;
+    font-size: 49pt;
+    color: white;
+    font-weight: bold;
+
+}
+
+.sp-color {
+    color: rgb(219, 75, 75);
+}
+
+.pg {
+    color: white;
+    font-size: 15pt;
+    padding-left: 7rem;
+    font-weight: 1000;
+    padding-top: 2rem;
+
+}
+
+.app-btn {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2.5rem;
+    background-color: rgb(219, 75, 75);
+    color: white;
+    font-weight: bold;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.google-btn {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 2.5rem;
+    background-color: rgb(219, 75, 75);
+    color: white;
+    font-weight: bold;
+}
+
+/* Second Section */
+
+div .img-slider {
+    display: inline;
+    float: left;
+    
+
+}
+.img-slider{
+    margin-top: 8rem;
+}
+.img1 {
+    background-image: url('Mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img2 {
+    background-image: url('frstIMG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img3 {
+    background-image: url('sevenimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img4 {
+    background-image: url('Mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img5 {
+    background-image: url('sevenimg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.radio-dot {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+
+}
+
+/* Third section has been started */
+.third-section {
+    margin-top: 5rem;
+    padding-top: 5rem;
+    background-color: black;
+    height: 23rem;
+
+
+
+}
+
+.trd-pg {
+    text-align: center;
+    color: rgb(160, 115, 47);
+    font-family: sans-serif;
+
+}
+
+.trd-pg2 {
+    text-align: center;
+    color: white;
+    font-size: 35pt;
+    font-family: sans-serif;
+}
+
+.trd-pg3 {
+    text-align: center;
+    color: white;
+    font-size: 35pt;
+    font-family: sans-serif;
+}
+
+.trd-pg4 {
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+
+.trd-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+
+
+}
+
+.join-btn {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Four Section Sytel started */
+
+.fr-heading {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.fr {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+.fr-crd {
+    width: 23rem;
+    height: auto;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+}
+
+
+div .fr-pg p {
+    border-left: 3px solid red;
+    padding-left: 1.6rem;
+    font-family: sans-serif;
+
+}
+
+.fr-sub-crd img {
+    margin-left: 1.6rem;
+    margin-top: 1.5rem;
+    float: left;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+
+}
+
+.fr-sb {
+    float: left;
+
+}
+
+.fr-sb-hd {
+
+    padding-top: 25px;
+    margin-left: 1rem;
+    opacity: 0.8;
+}
+
+.fr-sb-hd2 {
+
+    margin-left: 1rem;
+    opacity: 0.5;
+
+    margin-top: .2rem;
+}
+
+.fr-twitter {
+    float: right;
+    padding-left: 3rem;
+
+
+}
+
+/* Fifth Section style started from here */
+.fv {
+    margin-top: 10rem;
+    height: auto;
+}
+
+.fv-img {
+    width: 40%;
+ 
+    float: left;
+    padding-left: 8rem;
+
+}
+
+.fv-img1 {
+    background-image: url('fiveMG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+    
+}
+
+.fv-img2 {
+    background-image: url('fiveMG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+    
+}
+
+.fv-dcrp {
+    padding-top: 5rem;
+}
+
+.fv-hd {
+    font-size: 25pt;
+
+    font-family: sans-serif;
+
+}
+
+.fv-pg {
+    margin-top: 2rem;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+
+.fv-PlyGGL {
+    margin-top: 2rem;
+
+}
+
+/* sixth section style started from here */
+.sx {
+    margin-top: 15rem;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(61, 60, 60);
+}
+
+.sx-dv {
+
+    width: 342px;
+    height: 618px;
+    margin-left: 5rem;
+    float: left;
+
+}
+
+.sx-crd {
+    width: 15rem;
+    color: white;
+    height: auto;
+    margin-left: 5rem;
+    padding-top: 3rem;
+    font-family: sans-serif;
+}
+
+.sx-subcrd {
+    float: right;
+    margin-top: 5rem;
+}
+
+.sx-crd2 {
+    width: 15rem;
+    color: white;
+    height: 6rem;
+    margin-left: 5rem;
+    padding-top: 5rem;
+    font-family: sans-serif;
+
+}
+
+.sx-IMG {
+    float: left;
+    background-image: url('m3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    /* background-position: center center; */
+}
+
+/* Seven Section style started */
+.sv-img {
+    background-image: url('sevenimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.sv-img2 {
+    background-image: url('sevenimg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+
+}
